@@ -1,0 +1,41 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class mirrorLine : MonoBehaviour
+{
+    public float damage = 20f; // ﬁÌ„… «·÷—— ” ı—”· „‰ ﬂ·«” ¬Œ—
+    private HashSet<GameObject> hitEnemies = new HashSet<GameObject>(); // · Ã‰»  ﬂ—«— «·÷—— ⁄·Ï ‰›” «·⁄œÊ
+
+    // ÌÃ» √‰ ÌﬂÊ‰ Collider2D „⁄ ŒÌ«— Is Trigger „›⁄·
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        GameObject obj = other.gameObject;
+
+        if (!hitEnemies.Contains(obj))
+        {
+            hitEnemies.Add(obj);
+
+            if (other.TryGetComponent<Enemy>(out Enemy enemy))
+            {
+                enemy.TakeDamage(damage);
+            }
+            else if (other.TryGetComponent<EnemyRNG_Advanced>(out EnemyRNG_Advanced enemyRNG))
+            {
+                enemyRNG.TakeDamage(damage);
+            }
+            else if (other.TryGetComponent<sapperEnemy>(out sapperEnemy spaerEnemy))
+            {
+                spaerEnemy.TakeDamage(damage);
+            }
+            //else if (other.TryGetComponent<flayingEnemy>(out flayingEnemy flyeme))
+            //{
+            //    flyeme.TakeDamage(damage);
+            //}
+        }
+    }
+
+    public void DestroyAfterDelay(float delay = 2.5f)
+    {
+        Destroy(gameObject, delay);
+    }
+}

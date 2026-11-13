@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8a536a21d1847154db48aaec3e368bc4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - popupPrefab: {fileID: 2926335140578836478, guid: 4bfce90f48b67354cab11e6689935dff, type: 3}
+  - woodIcon: {fileID: -7643844274856366737, guid: 78f4a249766345e47aaa59a2c1ffe50a, type: 3}
+  - stoneIcon: {fileID: -5292522862636324362, guid: 3106ef4db1f9f7249b148d22e88d7185, type: 3}
+  - ironIcon: {fileID: 6743672218851931051, guid: 8a03373af7090db469bdb75525c3bcec, type: 3}
+  - powerIcon: {fileID: -1665189154257936985, guid: ba4d6643891edca4b8a5d436cf8a2f8c, type: 3}
+  - centerIcon: {fileID: 3326174907092375756, guid: 84fc888de550fa9438e7e82c0ca6dca8, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

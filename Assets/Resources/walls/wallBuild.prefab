@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &425031893584215220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 207840353722862815}
+  - component: {fileID: 6941540327266465604}
+  - component: {fileID: 5267538185586061722}
+  m_Layer: 0
+  m_Name: wallBuild
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &207840353722862815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425031893584215220}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.5074463, y: -0.32147217, z: -0.028765488}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1653162911514795313}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6941540327266465604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425031893584215220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2a3a20be53ad143b66c1165d2c47a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgradeBarPrefab: {fileID: 4110417966532954189, guid: 29942acd53dcdf6469bc5b2c21423872, type: 3}
+  levels:
+  - level: 1
+    cost: 100
+    health: 1000
+    model: {fileID: 4950594039677611638, guid: 488cda1d9a3e79740b0479b204f6c419, type: 3}
+  - level: 2
+    cost: 100
+    health: 1000
+    model: {fileID: 3637495304347610563, guid: 5f085a869088db346a6881cbf7b85233, type: 3}
+  - level: 3
+    cost: 100
+    health: 1000
+    model: {fileID: 4703730327097079446, guid: 1d6bd991dbf56814381d1ddd20c5384b, type: 3}
+  - level: 4
+    cost: 100
+    health: 1000
+    model: {fileID: 3143725841200813995, guid: 7b41bb77bf1ac154b822540aca6b3078, type: 3}
+  - level: 5
+    cost: 100
+    health: 1000
+    model: {fileID: 5116897485290926294, guid: 8b95aa7139319d448a8bea1b7d03ad95, type: 3}
+--- !u!114 &5267538185586061722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425031893584215220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94e404975780439abe0eedb9c2c58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingName: 
+  level: 1
+  upgradeIcon: {fileID: 8145694897601453970}
+  maxHealth: 200
+  health: 0
+  area:
+    m_Position: {x: 0, y: 0, z: 0}
+    m_Size: {x: 1, y: 1, z: 1}
+  healthBarPrefab: {fileID: 0}
+--- !u!1 &8145694897601453970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1653162911514795313}
+  m_Layer: 0
+  m_Name: null2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1653162911514795313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8145694897601453970}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 207840353722862815}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 9e2a3a20be53ad143b66c1165d2c47a3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - uiCanvas: {instanceID: 0}
+  - upgradeBarPrefab: {fileID: 4110417966532954189, guid: 29942acd53dcdf6469bc5b2c21423872, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

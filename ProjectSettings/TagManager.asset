@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - MainCanvas
+  - InteractionBlocker
+  - Good
+  - brackClan
+  - CaveBrack
+  - clan
+  - exeBuild
+  - spy
+  - Enemy
+  - plan
+  - trapfire
+  - post
+  - hadad
+  - Mirror
+  - spyClan
+  - trapN
+  - Cave
+  - fourMaker
+  - horn
+  - wood
+  - stone
+  - iron
+  - maker
+  - training
+  - power
+  - NewWorr
+  - archerOP
+  - wall
+  - Resoures
+  - mongel
+  - Barracks
+  - boomTower
+  - flayTower
+  - boomOP
+  - flameT
+  - archer
+  - monster
+  - CenterCity
+  - Draggable
+  - EnemyFly
+  - monsterFly
+  - Timer
+  - TimerTrain
+  - TimerOpen
+  - sor
+  - sorTimer
+  - monsterEnemy
+  - panal1
+  - panal2
+  - panal3
+  - panal4
+  - panal5
+  - worker
+  - upgrade
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - background
+  - building
+  - wall
+  - enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 1536845583
+    locked: 0
+  - name: ground
+    uniqueID: 252311963
+    locked: 0
+  - name: sor
+    uniqueID: 4231970537
+    locked: 0
+  - name: building
+    uniqueID: 3632221591
+    locked: 0
+  - name: enemy
+    uniqueID: 429079885
+    locked: 0
+  m_RenderingLayers:
+  - Default
